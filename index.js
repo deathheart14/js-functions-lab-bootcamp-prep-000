@@ -11,6 +11,6 @@ function happyHolidaysTo(name) {
 function happyHolidaysTo(holiday, name) {
   var name = name
   var holiday = holiday
-  var string1 = 'Happy ${holiday}, ${name}'
+  var string1 = 'Happy' ${holiday}',' ${name}
   return string1
 }
