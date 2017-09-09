@@ -8,9 +8,16 @@ function happyHolidaysTo(name) {
   return string1
 }
 
-function happyHolidaysTo(holiday, name) {
+function happyHolidayTo(holiday, name) {
   var name = name
   var holiday = holiday
-  var string1 = 'Happy' ${holiday}',' ${name}
+  var string1 = 'Happy ${holiday}, ${name}'
   return string1
+}
+
+function holidayCountdown(holiday, days) {
+  var days = days
+  var holiday = holiday
+  
+  return "It's ${days} days until ${holiday}"
 }
