@@ -4,6 +4,6 @@ function happyHolidays() {
 
 function happyHolidaysTo(string) {
   var name = string
-  var string1 = 'Happy holidays,' + ${name}
+  var string1 = 'Happy holidays, ${name}'
   return string1
 }
